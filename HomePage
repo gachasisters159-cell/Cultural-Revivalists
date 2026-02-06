@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cultural Revivalists</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+/* Background */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #4b0f16, #2b1b16);
+    color: #f3e9dc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Paper scraps decor */
+.paper {
+    position: absolute;
+    background: #c8a97e;
+    opacity: 0.15;
+    transform: rotate(8deg);
+    border-radius: 8px;
+}
+
+.paper1 { width: 250px; height: 150px; top: 10%; left: 8%; }
+.paper2 { width: 200px; height: 120px; bottom: 12%; right: 10%; transform: rotate(-10deg); }
+.paper3 { width: 180px; height: 100px; top: 70%; left: 20%; }
+
+/* Main card */
+.container {
+    text-align: center;
+    background: rgba(60, 32, 24, 0.85);
+    padding: 60px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+    max-width: 700px;
+}
+
+/* Heading */
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    color: #e8c59c;
+}
+
+/* Description */
+p {
+    font-size: 18px;
+    color: #f5e6d3;
+}
+
+/* Pakistan map */
+.map {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 70px;
+    opacity: 0.8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Paper decorations -->
+<div class="paper paper1"></div>
+<div class="paper paper2"></div>
+<div class="paper paper3"></div>
+
+<!-- Content -->
+<div class="container">
+    <h1>Cultural Revivalists</h1>
+    <p>A Global Perspectives Project on reviving Traditional Games of Pakistan</p>
+</div>
+
+<!-- Simple black Pakistan map (SVG silhouette) -->
+<svg class="map" viewBox="0 0 100 140" fill="black">
+    <path d="M40 5 L70 20 L60 40 L75 60 L55 80 L60 105 L40 120 L30 100 L15 85 L25 65 L15 45 L30 25 Z"/>
+</svg>
+
+</body>
+</html>
